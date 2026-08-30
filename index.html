@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tirana Rent a Car | Makina me Qira</title>
+
+<meta name="description" content="Tirana Rent a Car - makina me qira në Tiranë. Rezervo direkt në WhatsApp.">
+<meta name="theme-color" content="#0b0b0d">
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0b0b0d;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero {
+  min-height: 75vh;
+  padding: 30px 7%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #080808, #25252b);
+}
+
+.hero-content {
+  max-width: 850px;
+}
+
+.badge {
+  display: inline-block;
+  background: #f5b400;
+  color: #111;
+  padding: 9px 16px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: clamp(45px, 8vw, 78px);
+  line-height: 0.95;
+  margin-bottom: 22px;
+}
+
+.hero p {
+  color: #ccc;
+  font-size: 20px;
+  max-width: 650px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.btn {
+  padding: 15px 21px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.whatsapp {
+  background: #20c863;
+}
+
+.phone {
+  background: white;
+  color: #111;
+}
+
+.maps {
+  background: #33333a;
+}
+
+section {
+  padding: 60px 7%;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.cars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.car {
+  background: #17171b;
+  border: 1px solid #29292f;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.car-image {
+  height: 180px;
+  background: linear-gradient(135deg, #34343c, #111116);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  font-size: 15px;
+}
+
+.car-info {
+  padding: 18px;
+}
+
+.car-info h3 {
+  font-size: 21px;
+  margin-bottom: 8px;
+}
+
+.price {
+  color: #f5b400;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.price span {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.reserve {
+  display: block;
+  margin-top: 15px;
+  background: #20c863;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact {
+  text-align: center;
+  background: #151519;
+}
+
+.contact p {
+  color: #aaa;
+  margin: 10px 0 20px;
+}
+
+.location {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+footer {
+  text-align: center;
+  color: #777;
+  padding: 25px;
+}
+
+@media(max-width:600px) {
+
+  .hero {
+    min-height: 80vh;
+    padding: 30px 6%;
+  }
+
+  section {
+    padding: 45px 6%;
+  }
+
+  .hero p {
+    font-size: 17px;
+  }
+
+  .car-image {
+    height: 160px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header class="hero">
+
+<div class="hero-content">
+
+<div class="badge">
+🚗 TIRANA RENT A CAR
+</div>
+
+<h1>
+Makina me qira.<br>
+Thjesht. Shpejt. Sigurt.
+</h1>
+
+<p>
+Makina me qira në Tiranë.
+Zgjidh makinën tënde dhe rezervo direkt në WhatsApp.
+</p>
+
+<div class="buttons">
+
+<a class="btn whatsapp"
+href="https://wa.me/447386188343?text=Pershendetje%2C%20dua%20te%20rezervoj%20nje%20makine."
+target="_blank">
+💬 Rezervo në WhatsApp
+</a>
+
+<a class="btn phone"
+href="tel:+447386188343">
+☎️ Na telefono
+</a>
+
+<a class="btn maps"
+href="https://www.google.com/maps/search/?api=1&query=Mangalem+21%2C+Ali+Demi%2C+Tirana%2C+Albania"
+target="_blank">
+📍 Google Maps
+</a>
+
+</div>
+
+</div>
+
+</header>
+
+
+<section>
+
+<h2 class="title">
+Makinat tona
+</h2>
+
+<p class="subtitle">
+Çmime nga 30€ deri në 80€ / ditë.
+Për rezervim kontakto në WhatsApp.
+</p>
+
+
+<div class="cars">
+
+
+<div class="car">
+<div class="car-image">🚗 GOLF 6</div>
+<div class="car-info">
+<h3>Volkswagen Golf 6</h3>
+<div class="price">30€ <span>/ ditë</span></div>
+<a class="reserve" href="https://wa.me/447386188343?text=Pershendetje%2C%20jam%20i%20interesuar%20per%20Golf%206." target="_blank">Rezervo tani</a>
+</div>
+</div>
+
+
+<div class="car">
+<div class="car-image">🚗 GOLF 7</div>
+<div class="car-info">
+<h3>Volkswagen Golf 7</h3>
+<div class="price">35€ <span>/ ditë</span></div>
+<a class="reserve" href="https://wa.me/447386188343?text=Pershendetje%2C%20jam%20i%20interesuar%20per%20Golf%207." target="_blank">Rezervo tani</a>
+</div>
+</div>
+
+
+<div class="car">
+<div class="car-image">🚙 CHEVROLET</div>
+<div class="car-info">
+<h3>Chevrolet Captiva 2012</h3>
+<div class="price">40€ <span>/ ditë</span></div>
+<a class="reserve" href="https://wa.me/447386188343?text=Pershendetje%2C%20jam%20i%20interesuar%20per%20Chevrolet%20Captiva." target="_blank">Rezervo tani</a>
+</div>
+</div>
+
+
+<div class="car">
+<div class="car-image">🚗 PASSAT</div>
+<div class="car-info">
+<h3>Volkswagen Passat SEL</h3>
+<div class="price">40€ <span>/ ditë</span></div>
+<a class="reserve" href="https://wa.me/447386188343?text=Pershendetje%2C%20jam%20i%20interesuar%20per%20Passat%20SEL." target="_blank">Rezervo tani</a>
+</div>
+</div>
+
+
+<div class="car">
+<div class="car-image">🚗 JETTA</div>
+<div class="car-info">
+<h3>Volkswagen Jetta</h3>
+<div class="price">30€ <span>/ ditë</span></div>
+<a class="reserve" href="https://wa.me/447386188343?text=Pershendetje%2C%20jam%20i%20interesuar%20per%20Volkswagen%20Jetta." target="_blank">Rezervo tani</a>
+</div>
+</div>
+
+
+<div class="car">
+<div class="car-image">🏎️ PORSCHE</div>
+<div class="car-info">
+<h3>Porsche Cayenne</h3>
+<div class="price">80€ <span>/ ditë</span></div>
+<a class="reserve" href="https://wa.me/447386188343?text=Pershendetje%2C%20jam%20i%20interesuar%20per%20Porsche%20Cayenne." target="_blank">Rezervo tani</a>
+</div>
+</div>
+
+
+<div class="car">
+<div class="car-image">🚙 HYUNDAI</div>
+<div class="car-info">
+<h3>Hyundai Santa Fe</h3>
+<div class="price">50€ <span>/ ditë</span></div>
+<a class="reserve" href="https://wa.me/447386188343?text=Pershendetje%2C%20jam%20i%20interesuar%20per%20Hyundai%20Santa%20Fe." target="_blank">Rezervo tani</a>
+</div>
+</div>
+
+
+<div class="car">
+<div class="car-image">🚙 HYUNDAI</div>
+<div class="car-info">
+<h3>Hyundai Tucson</h3>
+<div class="price">40€ <span>/ ditë</span></div>
+<a class="reserve" href="https://wa.me/447386188343?text=Pershendetje%2C%20jam%20i%20interesuar%20per%20Hyundai%20Tucson." target="_blank">Rezervo tani</a>
+</div>
+</div>
+
+
+<div class="car">
+<div class="car-image">🚘 MERCEDES</div>
+<div class="car-info">
+<h3>Mercedes-Benz C-Class</h3>
+<div class="price">50€ <span>/ ditë</span></div>
+<a class="reserve" href="https://wa.me/447386188343?text=Pershendetje%2C%20jam%20i%20interesuar%20per%20Mercedes%20C-Class." target="_blank">Rezervo tani</a>
+</div>
+</div>
+
+
+</div>
+</section>
+
+
+<section class="contact">
+
+<h2 class="title">
+Na kontakto
+</h2>
+
+<p>
+Rezervo makinën tënde direkt.
+</p>
+
+<div class="location">
+📍 Mangalem 21, Ali Demi, Tiranë
+</div>
+
+<div class="buttons" style="justify-content:center">
+
+<a class="btn whatsapp"
+href="https://wa.me/447386188343"
+target="_blank">
+WhatsApp
+</a>
+
+<a class="btn phone"
+href="tel:+447386188343">
+Telefono
+</a>
+
+<a class="btn maps"
+href="https://www.google.com/maps/search/?api=1&query=Mangalem+21%2C+Ali+Demi%2C+Tirana%2C+Albania"
+target="_blank">
+Hap lokacionin
+</a>
+
+</div>
+
+</section>
+
+
+<footer>
+
+© 2026 Tirana Rent a Car · Mangalem 21, Ali Demi, Tiranë
+
+</footer>
+
+</body>
+</html>
